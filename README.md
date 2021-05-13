@@ -1,5 +1,3 @@
-# core-java-snippet
-
 ### coreJava project
 
 * copyConstructor : call by reference 
