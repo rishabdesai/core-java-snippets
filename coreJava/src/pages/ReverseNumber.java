@@ -12,12 +12,29 @@ public class ReverseNumber {
 		}
 		return reverse;
 	}
+	
+	public static void recurviceRevNumber(int num) {
+		if(num <10) {
+		System.out.print(num);
+		return;
+		}else {
+			System.out.print(num%10);
+			recurviceRevNumber(num/10);
+		}
+		
+	}
 
 	public static void main(String[] args) {
 		int num = 123;
 		System.out.println(num);
 		int result = revNumber(num);
 		System.out.println(result);
+		System.out.println("-----------------");
+
+		recurviceRevNumber(num);
+		System.out.println();
+		System.out.print(num);
+		
 
 	}
 
