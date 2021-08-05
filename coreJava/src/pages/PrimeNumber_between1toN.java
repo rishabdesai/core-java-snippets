@@ -9,7 +9,7 @@ public class PrimeNumber_between1toN {
 				if (i % j == 0)
 					break;
 			}
-			if (j == i)
+			if (i == j)
 				System.out.print(i + " ");
 		}
 	}

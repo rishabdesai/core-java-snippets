@@ -9,10 +9,22 @@ public class FactorialOfNumber {
 		}
 		return result;
 	}
+	
+	  public static int recFactorial(int n) {
+	        if(n<0)
+	            return -1;
+	        if (n == 1 || n == 0)
+	            return 1;
+	        return n * recFactorial(n - 1);
+	    }
+	  
 
 	public static void main(String[] args) {
-		int fact = factorial(5);
-		System.out.println(fact);
+		int fact1 = factorial(5);
+		System.out.println("factorial is : "+fact1);
+		
+		int fact2 = recFactorial(5);
+		System.out.println("recursive factorial is : "+fact2);
 	}
 
 }

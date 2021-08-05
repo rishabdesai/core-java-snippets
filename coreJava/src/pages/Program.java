@@ -1,13 +1,8 @@
 package pages;
 
-public class z_practice {
-	
-	
-	
+public class Program {
+
 	public static void main(String[] args) {
-	
-		
 
 	}
-
 }
